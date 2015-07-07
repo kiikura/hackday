@@ -37,3 +37,7 @@ paybin2がよかったんだけど1.0だとない感じ？
 音質わるいけど我が家のrasp piだと30分で鳴らせました。
 
 あとはpythonのラッパーから制御すれば細かく制御できそう。鳴らすだけならコマンドでもいいんじゃない？
+
+ちなみに参考にしたのはルビーのコードですがなにか？
+
+https://github.com/rekado/soundCLI/blob/master/lib/soundcli.rb
