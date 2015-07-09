@@ -17,6 +17,7 @@ sudo pip install soundcloud
 access_tokenを取得する（oauth2なしで取るタイプ）
 
 ```
+api_url="https://api.soundcloud.com/oauth2/token"
 t=requests.post(api_url,data={"client_id":"d30b38b7c3cd11b951448eea57165b2b",
      "client_secret":'1d8ba78b0500b9360e012f88e888bfff',
      'username':"ken.iikura.xe@hitachi-systems.com",
